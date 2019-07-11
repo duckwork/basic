@@ -1,6 +1,6 @@
-" Name: htmlbasic-vim
+" Name: basic
 " Author: Case Duckworth <acdw@acdw.net>
-" URL: https://github.com/duckwork/htmlbasic
+" URL: https://github.com/duckwork/basic
 " License: MIT
 
 hi clear
@@ -8,7 +8,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let g:colors_name = "html2"
+let g:colors_name = "basic"
 
 " Clear all highlights
 for gp in [
